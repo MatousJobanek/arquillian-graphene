@@ -37,7 +37,7 @@
 
         <!-- Arquillian -->
         <version.arquillian.core>1.1.11.Final</version.arquillian.core>
-        <version.arquillian.drone>2.0.0.Beta1</version.arquillian.drone>
+        <version.arquillian.drone>2.0.0.CR1</version.arquillian.drone>
 
         <!-- Runtime dependencies -->
         <version.cglib>2.2.2</version.cglib>
@@ -56,6 +56,13 @@
             <url>http://www.gnu.org/licenses/lgpl-2.1.txt</url>
         </license>
     </licenses>
+
+    <repositories>
+        <repository>
+            <id>drone-staging</id>
+            <url>https://repository.jboss.org/nexus/content/repositories/jboss_releases_staging_profile-7916</url>
+        </repository>
+    </repositories>
 
     <scm>
         <connection>scm:git:git@github.com:arquillian/arquillian-graphene.git</connection>
