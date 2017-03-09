@@ -57,6 +57,16 @@
         </license>
     </licenses>
 
+
+    <repositories>
+        <repository>
+            <id>jboss-nexus-released</id>
+            <url>https://repository.jboss.org/nexus/service/local/repositories/releases/content/</url>
+        </repository>
+    </repositories>
+
+
+
     <scm>
         <connection>scm:git:git@github.com:arquillian/arquillian-graphene.git</connection>
         <developerConnection>scm:git:git@github.com:arquillian/arquillian-graphene.git</developerConnection>
